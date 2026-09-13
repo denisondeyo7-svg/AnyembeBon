@@ -133,15 +133,39 @@ nav a{
     color: #c0bdbd;
     font-size: 22px;
 }
+.dp{
+    margin-right: 22px;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.dp img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 
-
-@media(max-width:600px){
+@media screen and (max-width: 600px){
     .text{
    
         width: 28rem;
     }
+    .text small{
+        margin-left: 22px;
+    }
+    .text p{
+        margin-left: 22px;
+    }
     .typing{
-        text-align: center;
+       display: flex;
+       justify-self: center;
+    }
+    .socials{
+       display: flex;
+       align-items: center;
+       justify-content: center;
     }
 }
+
