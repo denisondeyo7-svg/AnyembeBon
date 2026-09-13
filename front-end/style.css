@@ -37,6 +37,7 @@ nav{
 
 nav a{
     text-decoration: none;
+    color: #fff;
 }
 .maindiv{
     display: flex;
@@ -59,8 +60,9 @@ nav a{
     justify-content: center;
     align-items: center;
     margin: 12px;
-    background: aqua;
-    padding: 22px;
+    background: rgba(0, 255, 255, 0.253);
+    padding: 12px;
+    border-radius: 12px;
    
    
 
@@ -139,4 +141,7 @@ nav a{
    
         width: 28rem;
     }
-    .ty
+    .typing{
+        text-align: center;
+    }
+}
